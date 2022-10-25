@@ -115,6 +115,7 @@ img{
 .foods h3{
 	text-align: center;
 	font-weight: 600;
+	margin-top: 20px;
 }
 .food-item{
 	display: flex;
