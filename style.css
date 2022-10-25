@@ -131,6 +131,7 @@ img{
 .card:hover{
 	transform: translateY(10px);
 	transition-duration: .5s;
+}
 .card .item-info{
 	display: flex;
 	justify-content: space-between;
