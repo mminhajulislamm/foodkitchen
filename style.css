@@ -48,7 +48,7 @@ img{
 }
 
 
-
+//   //
 .section{
 	margin: 50px 0;
 }
@@ -75,7 +75,7 @@ img{
 	height: auto;
 }
 
-
+//  //
 .about{
 	background: #fff5ee;
 	margin: 50px 0;
@@ -108,7 +108,7 @@ img{
 }
 
 
-
+//  //
 .foods{
 	margin: 50px 0;
 }
@@ -152,7 +152,7 @@ img{
 }
 
 
-
+//  //
 .order{
 	background: #fff5ee;
 	margin: 50px 0;
@@ -177,6 +177,7 @@ img{
 .app{
 	display: flex;
 	justify-content: flex-start;
+	margin-bottom: 20px;
 }
 .app img{
 	width: 120px;
@@ -184,7 +185,7 @@ img{
 	margin-right: 20px;
 }
 
-
+//  //
 .bottom-menu{
 	margin: 50px 0;
 }
@@ -213,7 +214,7 @@ img{
 	color: #685d5d;
 }
 
-
+//  //
 .footer{
 	background: #fff5ee;
 	padding: 15px 0;
