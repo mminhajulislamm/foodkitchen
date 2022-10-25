@@ -232,6 +232,7 @@ img{
 	.section-item{
 		display: block;
 		flex-wrap: wrap;
+		text-align: center;
 	}
 
 	.menu-item{
@@ -254,6 +255,12 @@ img{
 	}
 	.order-details{
 		flex-wrap: wrap;
+	}
+	.order-info{
+		text-align: center;
+	}
+	.order-info .app{
+		justify-content: center;
 	}
 }
 
