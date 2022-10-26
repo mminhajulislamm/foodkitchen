@@ -234,7 +234,6 @@ img{
 .footer{
 	background: #fff5ee;
 	padding: 15px 0;
-	margin-top: 20px;
 }
 
 
@@ -246,7 +245,6 @@ img{
 		flex-wrap: wrap;
 		text-align: center;
 	}
-
 	.menu-item{
 		display: block;
 	}
