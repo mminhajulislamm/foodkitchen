@@ -248,6 +248,9 @@ img{
 	.menu-item{
 		display: block;
 	}
+	.menu-item .logo{
+		text-align: center;
+	}
 	.menu-list{
 		flex-wrap: wrap;
 		align-items: center;
