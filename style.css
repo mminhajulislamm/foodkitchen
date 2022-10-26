@@ -46,6 +46,9 @@ img{
 	color: #000;
 	margin-left: 25px;
 }
+.user i:hover{
+	color: #ff9401;
+}
 
 
 //   //
