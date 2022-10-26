@@ -174,12 +174,10 @@ img{
 	margin-top: 30px;
 }
 .img-corner .left-img{
-	transform: translateX(-20px);
-	transform: rotate(40deg);
+	
 }
 .img-corner .right-img{
-	transform: translateX(20px);
-	transform: rotate(-40deg);
+	
 }
 .order-details{
 	display: flex;
