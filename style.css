@@ -115,7 +115,7 @@ img{
 .foods h3{
 	text-align: center;
 	font-weight: 600;
-	margin-top: 20px;
+	padding: 20px 0;
 }
 .food-item{
 	display: flex;
@@ -233,6 +233,7 @@ img{
 .footer{
 	background: #fff5ee;
 	padding: 15px 0;
+	margin-top: 20px;
 }
 
 
