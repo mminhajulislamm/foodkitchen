@@ -170,7 +170,14 @@ img{
 	justify-content: space-between;
 	margin-top: 30px;
 }
-
+.img-corner .left-img{
+	transform: translateX(-20px);
+	transform: rotate(40deg);
+}
+.img-corner .right-img{
+	transform: translateX(30px);
+	transform: rotate(-40deg);
+}
 .order-details{
 	display: flex;
 	justify-content: space-between;
