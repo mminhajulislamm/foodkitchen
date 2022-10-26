@@ -175,7 +175,7 @@ img{
 	transform: rotate(40deg);
 }
 .img-corner .right-img{
-	transform: translateX(30px);
+	transform: translateX(20px);
 	transform: rotate(-40deg);
 }
 .order-details{
