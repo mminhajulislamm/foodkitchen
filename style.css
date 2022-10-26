@@ -129,6 +129,9 @@ img{
 	background-color: #fffefc;
 	margin: 15px;
 }
+.card img{
+	border-radius:10px 10px 0 0 ;
+}
 .card:hover{
 	transform: translateY(10px);
 	transition-duration: .5s;
@@ -252,6 +255,9 @@ img{
 	.about-items{
 		display: block;
 		flex-direction: column;
+	}
+	.card{
+		width: 100%;
 	}
 	.order-details{
 		flex-wrap: wrap;
