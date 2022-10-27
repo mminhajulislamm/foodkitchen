@@ -266,14 +266,12 @@ img{
 	padding: 15px 0;
 }
 
-
-
+/*  */
 @media (max-width: 991px){
-
-	.section-item{
-		display: block;
-		flex-wrap: wrap;
-		text-align: center;
+	
+	.right-item img{
+	width: 400px;
+	height: auto;
 	}
 
 	.menu-item{
@@ -290,12 +288,18 @@ img{
 
 @media (max-width: 767px){
 
-	.food-item{
+	.section-item{
+		display: block;
 		flex-wrap: wrap;
+		text-align: center;
 	}
 	.about-items{
 		display: block;
 		flex-direction: column;
+	}
+	
+	.food-item{
+		flex-wrap: wrap;
 	}
 	.card{
 		width: 100%;
