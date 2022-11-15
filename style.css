@@ -175,6 +175,9 @@ img{
 	background: gray;
 	margin: auto;
 } 
+.card .btn-add:hover{
+	background-color: green;
+}
 .btn-more button{
 	color: #fff;
 	padding: 10px 25px;
