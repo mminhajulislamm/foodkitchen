@@ -20,6 +20,7 @@ img{
 
 .nav{
 	background-color: #fff5ee;
+	position: relative;
 }
 .nav-item{
 	display: flex;
@@ -27,18 +28,26 @@ img{
 	align-items: center;
 	padding: 20px 0;
 }
-.nav-item .menu {
-	width: 200px;
+.menu{
+	width: 190px;
 	height: auto;
 	background: #ff9401;
 	border: transparent;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 15px;
+	position: absolute;
+	top: 100%;
+	right: 0;	
 	display: none;
 }
-.nav-item .menu ul li a{
+.menu ul li a{
 	color: #000;
 	line-height: 40px;
+}
+.menu ul li:hover{
+	transform: scale(1.1);
+	transition-duration: .5s;
+	
 }
 .logo i{
 	font-size: 25px;
@@ -142,9 +151,12 @@ img{
 	font-weight: 600;
 	padding: 20px 0;
 }
-.food-item{
+.food-item .row{
 	display: flex;
 	justify-content: center;
+}
+.food-item #row2 .card{
+	display: none;
 }
 .card{
 	width: 250px;
@@ -191,6 +203,7 @@ img{
 	transition-duration: .5s;
 }
 
+
 /*  */
 .order{
 	background: #fff5ee;
@@ -235,7 +248,7 @@ img{
 }
 .menu-item{
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items: flex-start;	
 }
 .menu-item .logo p{
@@ -247,6 +260,9 @@ img{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+}
+.menu-list ul{
+	margin-right: 20px;
 }
 .menu-list ul h4{
 	color: #000;
@@ -269,8 +285,10 @@ img{
 	padding: 15px 0;
 }
 
-/*  */
+
+
 @media (max-width: 991px){
+
 	
 	.right-item img{
 	width: 400px;
