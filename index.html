@@ -21,11 +21,21 @@
 					<a href="#"><i class="fa-solid fa-kitchen-set"></i>Food<span>Kitchen</span></a>
 				</div>
 
+				<div class="menu" id="menu">
+
+					<ul>
+						<li><a href="#">Breakfast</a></li>
+						<li><a href="#">Lunch</a></li>
+						<li><a href="#">Dinner</a></li>
+					</ul>	
+				</div>
+
 				<div class="user">
 					<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
 					<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-					<a href="#"><i class="fa-solid fa-list"></i></a>
+					<a href="#" ><i class="fa-solid fa-list"></i></a>
 				</div>
+				
 			</div>	
 		</div>	
 	</div>
@@ -71,11 +81,12 @@
 		</div>
 	</div>
 
-	<div class="foods">
+	<div class="foods" id="foods">
 		<div class="container">
 			<h3>Popular Items</h3>
 
 			<div class="food-item">
+				<div class="row">
 				
 				<div class="card">
 					<img src="img/m1.jpg">
@@ -115,9 +126,54 @@
 					</div>
 				
 					<button class="btn-add">Add To Cart</button>
+				</div>
+				</div>
+
+
+				<div class="row" id="row2">
+				<div class="card">
+					<img src="img/m1.jpg">
+					<div class="item-info">	
+						<h6 class="item-name"><b>Item 1</b></h6>
+						<h6>$499</h6>	
+					</div>
+				
+					<button class="btn-add">Add To Cart</button>
 				</div>	
 
+				<div class="card">
+					<img src="img/m2.jpg">
+					<div class="item-info">	
+						<h6 class="item-name"><b>Item 2</b></h6>
+						<h6>$499</h6>	
+					</div>
+				
+					<button class="btn-add">Add To Cart</button>
+				</div>	
+
+				<div class="card">
+					<img src="img/m3.jpg">
+					<div class="item-info">	
+						<h6 class="item-name"><b>Item 3</b></h6>
+						<h6>$499</h6>	
+					</div>
+				
+					<button class="btn-add">Add To Cart</button>
+				</div>	
+
+				<div class="card">
+					<img src="img/m4.jpg">
+					<div class="item-info">	
+						<h6 class="item-name"><b>Item 4</b></h6>
+						<h6>$499</h6>	
+					</div>
+				
+					<button class="btn-add">Add To Cart</button>
+				</div>
+				</div>
+
 			</div>
+
 			<div align="center" class="btn-more">
 				<button>See More Items</button>
 			</div>
@@ -127,8 +183,8 @@
 	<div class="order">
 
 		<div class="img-corner">
-				<img class="left-img" src="img/b1.png">
-				<img class="right-img" src="img/b3.png">
+				<img src="img/b1.png">
+				<img src="img/b3.png">
 			</div>
 
 		<div class="container">
@@ -168,7 +224,7 @@
 					<ul>
 						<h5>Our Menu</h5>
 						<li><a href="#">Braekfast</a></li>
-						<li><a href="#">Launce</a></li>
+						<li><a href="#">Lunch</a></li>
 						<li><a href="#">Dinner</a></li>
 					</ul>
 
@@ -203,8 +259,31 @@
 	
 
 
-
 <!-- fontawesome-->
-    <script src="https://kit.fontawesome.com/591e2bb5eb.js" crossorigin="anonymous"></script>		
+    <script src="https://kit.fontawesome.com/591e2bb5eb.js" crossorigin="anonymous"></script>
+
+<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> 
+
+
+<script>
+	(function($){
+		'use strict'
+
+		$('.fa-list').click(function(){
+			$('.menu').slideToggle();
+		});
+
+		$('.btn-more button').click(function(){
+			$('.food-item #row2 .card').show();
+			$('.btn-more button').hide();
+		});
+		
+
+
+	}) (jQuery);
+
+</script>
+
 </body>
 </html>
