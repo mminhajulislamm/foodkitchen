@@ -151,13 +151,13 @@ img{
 	font-weight: 600;
 	padding: 20px 0;
 }
+
 .food-item .row{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
-.food-item #row2 .card{
-	display: none;
-}
+
 .card{
 	width: 250px;
 	height: auto;
@@ -189,6 +189,15 @@ img{
 } 
 .card .btn-add:hover{
 	background-color: green;
+}
+
+.food-item #row2 .card{
+	display: none;
+}
+
+.food-item #row2 .card .btn-add{
+	display: flex;
+	justify-content: center;
 }
 .btn-more button{
 	color: #fff;
